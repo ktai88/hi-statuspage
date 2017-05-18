@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {padding:0; margin:0; font-family: 'Poppins', Verdana, sans-serif; font-size:16px;}
+
+h1, h2, h3, h4 {font-family: 'Rajdhani', Verdana, sans-serif; font-weight: 700;}
+
+h1 {font-size:30px;}
+h2 {font-size:20px;}
+h3 {font-size:20px;}
+h4 {font-size:18px;}
+
+
+
+.white {color:#fff;}
+.grey {color:#686868;}
+.purple {color:#553377;}
+
+.bottom {position: absolute; bottom:0; left:0;}
+
+.btn-inverted {border:1px solid #fff; display: inline-block; color:#fff; text-decoration: none; transition: 400ms;}
+.btn-inverted:hover {border:1px solid #fff; background:#fff; display: inline-block; color:#664488; text-decoration: none; transition: 400ms;}
+
+.bg-purple { /*background:url('images/bg-section.jpg') center; background-size:cover; */ background:#664488; min-height:400px;}
+.bg-purple p {line-height:2em;}
+
+.columns-section p {width:200px; line-height:1.5em; font-size:0.9em;}
+
+.content-container {width:80%; }
+
+.card {width:100%; transition: 700ms; opacity: 0.7; border-radius:3px; box-shadow:0px 0px 10px rgba(0,0,0,0.15) }
+.card:hover {width:100%; transition: 700ms; opacity:1;  border-color:#1199BB; color:#1199BB;}
+.card p {font-size:13px;}
+
+.status {font-size:0.70em; color:#FFFFFF;  margin-top:auto;}
+
+.bg-white {background: white;}
+.bg-red {background: red;}
+.bg-green {background: green;}
+.bg-orange {background: orange;}
+.bg-grey {background:#686868;}
+
+footer {}
+
+@media (min-width:960px){
+  .home-page-video {min-height:600px;}
+  .content-container {width: 900px;}
+}
+
+@media (min-width:1680px){
+  .home-page-video {min-height:700px;}
+  .content-container {width: 1200px;}
+}
